@@ -1,0 +1,10 @@
+platform: !Linux Ubuntu
+shell: Fish
+packages:
+  - [!Snap [Classic, Edge], "nvim"]
+  - [Apt, "tmux"]
+  - [Apt, "fish"]
+  - [Apt, "tig"]
+in_dir: ./ubuntu
+out_dir: /home/anosatsuk124
+
