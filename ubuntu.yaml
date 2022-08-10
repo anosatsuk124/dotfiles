@@ -5,6 +5,10 @@ packages:
   - [Apt, "tmux"]
   - [Apt, "fish"]
   - [Apt, "tig"]
+  - [Apt, "zoxide"]
+  - [Apt, "silversearcher-ag"]
+  - [Apt, "fzf"]
+  - [Apt, "exa"]
 in_dir: ./ubuntu
 out_dir: /home/anosatsuk124
 
