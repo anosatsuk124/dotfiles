@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/coc.nvim",
@@ -83,6 +88,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/eskk.vim",
     url = "https://github.com/vim-skk/eskk.vim"
+  },
+  ["fairyfloss.vim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/fairyfloss.vim",
+    url = "https://github.com/tssm/fairyfloss.vim"
   },
   fzf = {
     loaded = true,
@@ -120,18 +130,23 @@ _G.packer_plugins = {
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["vim-eslint-syntax"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/vim-eslint-syntax",
+    url = "https://github.com/gmoe/vim-eslint-syntax"
+  },
+  ["vim-espresso"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/vim-espresso",
+    url = "https://github.com/gmoe/vim-espresso"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
 if should_profile then save_profiles() end
 
 end)

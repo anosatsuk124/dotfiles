@@ -4,9 +4,7 @@ require("toggleterm").setup{
   direction = "float",
   open_mapping = [[<c-\>]],
   hide_numbers = true, -- hide the number column in toggleterm buffers
-  shade_filetypes = {},
-  shade_terminals = true, -- NOTE: this option takes priority over highlights specified so if you specify Normal highlights you should set this to false
-  shading_factor = '3',
+  shade_terminals = false, -- NOTE: this option takes priority over highlights specified so if you specify Normal highlights you should set this to false
   start_in_insert = true,
   insert_mappings = true, -- whether or not the open mapping applies in insert mode
   terminal_mappings = true, -- whether or not the open mapping applies in the opened terminals
@@ -25,7 +23,7 @@ require("toggleterm").setup{
     -- like `size`, width and height can be a number or function which is passed the current terminal
     width = 100,
     height = 30,
-    winblend = 3,
+    winblend = 0,
   },
   winbar = {
     enabled = false,
