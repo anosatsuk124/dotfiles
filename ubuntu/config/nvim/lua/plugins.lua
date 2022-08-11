@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     use 'tssm/fairyfloss.vim'
-    use 'gmoe/vim-espresso'
+    use 'anosatsuk124/vim-espresso'
     use 'gmoe/vim-eslint-syntax'
     use 'raphamorim/lucario'
     use { 'neoclide/coc.nvim', branch = 'release' }
@@ -25,5 +25,6 @@ return require('packer').startup(function(use)
     use 'junegunn/fzf'
     use 'vim-skk/eskk.vim'
     use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+    use 'norcalli/nvim-colorizer.lua'
 end)
 

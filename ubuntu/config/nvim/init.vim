@@ -1,4 +1,6 @@
 lua require('plugins')
+set termguicolors
+runtime plugins_conf/nvim-colorizer.lua
 runtime plugins_conf/bufferline.lua
 runtime plugins_conf/nvim-tree.lua
 runtime plugins_conf/toggle-term.lua
@@ -14,7 +16,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set smartindent
-" set termguicolors
+set termguicolors
 " Prefix key
 nnoremap <C-b> <Nop>
 inoremap <silent> jj <ESC>

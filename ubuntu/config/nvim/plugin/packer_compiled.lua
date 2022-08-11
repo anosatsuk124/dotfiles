@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/lucario",
     url = "https://github.com/raphamorim/lucario"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -142,7 +147,7 @@ _G.packer_plugins = {
   ["vim-espresso"] = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/vim-espresso",
-    url = "https://github.com/gmoe/vim-espresso"
+    url = "https://github.com/anosatsuk124/vim-espresso"
   }
 }
 
