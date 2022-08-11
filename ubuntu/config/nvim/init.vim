@@ -1,3 +1,12 @@
+lua require('plugins')
+runtime plugins_conf/nvim-tree.lua
+runtime plugins_conf/toggle-term.lua
+runtime plugins_conf/coc.vim
+runtime plugins_conf/colorscheme.vim
+" runtime plugins_conf/defx.vim
+runtime plugins_conf/nvim-treesitter.vim
+runtime plugins_conf/fzf.vim
+runtime plugins_conf/eskk.vim
 set clipboard+=unnamedplus
 set number
 set expandtab
@@ -65,3 +74,6 @@ noremap  <C-b>p :tabprevious<CR>
 " tp 前のタブ
 
 noremap <C-b>t :tabnew <bar> terminal<CR>
+
+" completion settings
+set completeopt=menuone,noinsert

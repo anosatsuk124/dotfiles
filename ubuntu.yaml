@@ -9,6 +9,7 @@ packages:
   - [Apt, "silversearcher-ag"]
   - [Apt, "fzf"]
   - [Apt, "exa"]
+  - [Apt, "ripgrep"]
 in_dir: ./ubuntu
 out_dir: /home/anosatsuk124
 

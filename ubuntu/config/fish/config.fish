@@ -3,6 +3,10 @@ if status is-interactive
     alias la "exa -lag"
     alias tree "exa --icons -T"
 
+    if test -d $HOME/.nvm/current
+        set PATH $HOME/.nvm/current/bin $PATH
+    end
+
 	function nvm
         bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
 	end
