@@ -1,5 +1,7 @@
 lua require('plugins')
 set termguicolors
+runtime plugins_conf/svelte.lua
+runtime plugins_conf/lualine.lua
 runtime plugins_conf/nvim-colorizer.lua
 runtime plugins_conf/bufferline.lua
 runtime plugins_conf/nvim-tree.lua
@@ -11,6 +13,7 @@ runtime plugins_conf/nvim-treesitter.vim
 runtime plugins_conf/fzf.vim
 runtime plugins_conf/eskk.vim
 set clipboard+=unnamedplus
+let g:python3_host_prog = '/home/anosatsuk124/miniconda3/bin/python3'
 set number
 set expandtab
 set tabstop=4

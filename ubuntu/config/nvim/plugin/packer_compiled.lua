@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["bnf.vim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/bnf.vim",
+    url = "https://github.com/vim-scripts/bnf.vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -103,6 +108,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
+  },
+  ["jupyter-vim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/jupyter-vim",
+    url = "https://github.com/jupyter-vim/jupyter-vim"
+  },
+  ["jupytext.vim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/jupytext.vim",
+    url = "https://github.com/goerz/jupytext.vim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   lucario = {
     loaded = true,
@@ -148,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/vim-espresso",
     url = "https://github.com/anosatsuk124/vim-espresso"
+  },
+  ["vim-svelte-plugin"] = {
+    loaded = true,
+    path = "/home/anosatsuk124/.local/share/nvim/site/pack/packer/start/vim-svelte-plugin",
+    url = "https://github.com/leafOfTree/vim-svelte-plugin"
   }
 }
 

@@ -2,6 +2,7 @@ if status is-interactive
     alias ls "exa --icons"
     alias la "exa -lag"
     alias tree "exa --icons -T"
+    alias lg lazygit
 
     if test -d $HOME/.nvm/current
         set PATH $HOME/.nvm/current/bin $PATH
@@ -24,3 +25,10 @@ if status is-interactive
 
 	zoxide init fish | source
 end
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/anosatsuk124/.ghcup/bin # ghcup-env
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /home/anosatsuk124/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+

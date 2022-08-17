@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+    use 'vim-scripts/bnf.vim' -- BNF syntax hilight
     use 'tssm/fairyfloss.vim'
     use 'anosatsuk124/vim-espresso'
     use 'gmoe/vim-eslint-syntax'
@@ -26,5 +27,12 @@ return require('packer').startup(function(use)
     use 'vim-skk/eskk.vim'
     use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
     use 'norcalli/nvim-colorizer.lua'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
+    use 'jupyter-vim/jupyter-vim' -- jupyter qtconsole tcp connection
+    use 'goerz/jupytext.vim'
+    use 'leafOfTree/vim-svelte-plugin' -- svelte sytax higlighting
 end)
 

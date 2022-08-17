@@ -1,6 +1,5 @@
 " set t_Co=256
-set background=dark
-set pumblend=40
+set pumblend=15
 colorscheme espresso
 " colorscheme fairyfloss
 
