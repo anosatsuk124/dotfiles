@@ -1,0 +1,5 @@
+/config/*
+!nvim
+!fish
+!wezterm
+!karabiner

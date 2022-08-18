@@ -1,0 +1,6 @@
+platform: !OSX
+shell: Fish
+packages:
+in_dir: ./macOS
+out_dir: /Users/anosatsuk124
+
